@@ -67,7 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-######
+###### Install modules
 fortawesome/fontawesome-svg-core<br />
 fortawesome/free-brands-svg-icons<br />
 fortawesome/free-regular-svg-icons<br />
