@@ -66,3 +66,17 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+###### Install modules
+fortawesome/fontawesome-svg-core<br />
+fortawesome/free-brands-svg-icons<br />
+fortawesome/free-regular-svg-icons<br />
+fortawesome/free-solid-svg-icons<br />
+fortawesome/react-fontawesome<br />
+material<br />
+material-table<br />
+react-bootstrap<br />
+react-metismenu<br />
+react-metismenu-router-link<br />
+react-router-dom<br />
+recharts
