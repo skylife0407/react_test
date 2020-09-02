@@ -44,6 +44,7 @@ export default function Alerts() {
         {eid:3, serverity:'', time:'2020-09-02 17:19:36', sig_msg:'SQL_Injection', src_ip:'192.168.0.22', src_port:12345, des_ip:'192.168.13.240', des_port:80, protocol:'tcp', payload_size:445, etc:''},
         {eid:4, serverity:'', time:'2020-09-02 17:19:36', sig_msg:'SQL_Injection', src_ip:'192.168.0.22', src_port:12345, des_ip:'192.168.13.240', des_port:80, protocol:'tcp', payload_size:445, etc:''},
         {eid:5, serverity:'', time:'2020-09-02 17:19:36', sig_msg:'SQL_Injection', src_ip:'192.168.0.23', src_port:12345, des_ip:'192.168.13.240', des_port:80, protocol:'tcp', payload_size:445, etc:''},
+        {eid:5, serverity:'', time:'2020-09-02 17:19:36', sig_msg:'SQL_Injection', src_ip:'192.168.0.23', src_port:12345, des_ip:'192.168.13.240', des_port:80, protocol:'tcp', payload_size:445, etc:''},
 
       ]}        
       options={{
