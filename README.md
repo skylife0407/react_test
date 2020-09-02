@@ -68,15 +68,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 ######
-fortawesome/fontawesome-svg-core
-fortawesome/free-brands-svg-icons
-fortawesome/free-regular-svg-icons
-fortawesome/free-solid-svg-icons
-fortawesome/react-fontawesome
-material
-material-table
-react-bootstrap
-react-metismenu
-react-metismenu-router-link
-react-router-dom
+fortawesome/fontawesome-svg-core<br />
+fortawesome/free-brands-svg-icons<br />
+fortawesome/free-regular-svg-icons<br />
+fortawesome/free-solid-svg-icons<br />
+fortawesome/react-fontawesome<br />
+material<br />
+material-table<br />
+react-bootstrap<br />
+react-metismenu<br />
+react-metismenu-router-link<br />
+react-router-dom<br />
 recharts
