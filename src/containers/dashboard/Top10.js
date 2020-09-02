@@ -38,22 +38,27 @@ export default class Example extends PureComponent {
 
   render() {
     return (
-      <PieChart width={260} height={260}>
-        <Pie
-          data={data}
-          cx={125}
-          cy={125}
-          labelLine={false}
-          label={renderCustomizedLabel}
-          outerRadius={130}
-          fill="#8884d8"
-          dataKey="value"
-        >
-          {
-            data.map((entry, index) => <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />)
-          }
-        </Pie>
-      </PieChart>
+      <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+        <div>
+        <PieChart width={370} height={261}>
+          <Pie
+            data={data}
+            cx={180}
+            cy={125}
+            labelLine={false}
+            label={renderCustomizedLabel}
+            outerRadius={130}
+            fill="#8884d8"
+            dataKey="value"
+          >
+            {
+              data.map((entry, index) => <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />)
+            }
+          </Pie>
+        </PieChart>
+        </div>
+      </div>
+      
     );
   }
 }

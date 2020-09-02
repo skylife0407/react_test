@@ -72,14 +72,31 @@
   margin-left: 215px;
   position: fixed;
   width: 80%;
-  height: 80%;
+  height: 88%;
   padding-top: 5px;
   padding-left: 15px;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: hidden;
   text-align: center;
+  margin-top: 70px;
 }
 
+.content:hover {
+  overflow-y: auto;
+}
+.content::-webkit-scrollbar {
+  width: fit-content;
+  width: 8px;
+}
+
+.content::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+  border-radius: 10px;
+}
+.content::-webkit-scrollbar-track {
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px white;
+}
 .fa-eye {
   color:white;
 }

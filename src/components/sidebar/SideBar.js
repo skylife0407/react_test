@@ -16,11 +16,6 @@ const menu = [
     to: "#alerts",
   },
   {
-    icon: "chart-bar",
-    label: "Alerts_c",
-    to: "#alerts_c",
-  },
-  {
     icon: "users",
     label: "Agents List",
     to: "#agentsList",

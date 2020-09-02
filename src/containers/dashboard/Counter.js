@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 class Counter extends Component{
     render() {
         return(
-            <div>
+            <div style={{display:"flex", justifyContent:"center"}}>
                 <div style={{ paddingBottom: '1rem', paddingTop: '1rem' }}>
                         <Card border="Secondary " style={{ width: '22rem' }}>
                             <Card.Header>Today</Card.Header>
@@ -12,10 +12,9 @@ class Counter extends Component{
                             <Card.Title>23,000</Card.Title>
                             </Card.Body>
                         </Card>
-                    </div>
-                    <div style={{ paddingBottom: '1rem', paddingTop: '1rem' }}>
+                        <p/>
                         <Card border="Secondary " style={{ width: '22rem' }}>
-                            <Card.Header>Today</Card.Header>
+                            <Card.Header>YESTERDAY</Card.Header>
                             <Card.Body>
                             <Card.Title>23,000</Card.Title>
                             </Card.Body>
